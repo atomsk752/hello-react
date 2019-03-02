@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import './App.css';
 import MyComponent from './MyComponent';
+import EventPractice from './EventPractice';
 
 class App extends Component {
   render() {
@@ -20,7 +21,9 @@ class App extends Component {
     return (
       
       <div className="my-div">
-        <MyComponent/>
+        <MyComponent name="React" age={4}/>
+        <EventPractice/>
+        
         <h1>Hello react!</h1>
         <h2>{text}</h2>
         {
